@@ -18,10 +18,10 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module HalfSub(A, B, D, B0);
+module HalfSub(A, B, D, Bo);
 	input A, B;
-	output D, B0; // Diff, B0‚ÍŒ…ŽØ‚è
+	output D, Bo;
 	
 	assign D = A ^ B;
-	assign B0 = ~A & B;
+	assign Bo = ~A & B;
 endmodule

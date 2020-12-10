@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name FAFS -dir "C:/Code/Kosen/4th/Verilog/FAFS/planAhead_run_1" -part xc6slx9tqg144-2
+create_project -name FAFS -dir "C:/Code/Kosen/4th/Verilog/report/FAFS/planAhead_run_2" -part xc6slx9tqg144-2
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "FAFS.ucf" [current_fileset -constrset]

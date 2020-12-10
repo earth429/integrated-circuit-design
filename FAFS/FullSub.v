@@ -26,9 +26,9 @@ module FullSub(A, B, Bi, D, Bo);
 	wire D1, D2;
 	
 	// A - B
-	HalfSub HS1(.A(A), .B(B), .D(D1), .B0(B1));
+	HalfSub HS1(.A(A), .B(B), .D(D1), .Bo(B1));
 	// A - B - Bi
-	HalfSub HS2(.A(D1), .B(Bi), .D(D2), .B0(B2));
+	HalfSub HS2(.A(D1), .B(Bi), .D(D2), .Bo(B2));
 	
 	assign D = D2;
 	assign Bo = B1 | B2;

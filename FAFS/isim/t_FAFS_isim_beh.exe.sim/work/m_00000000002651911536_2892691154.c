@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Code/Kosen/4th/Verilog/FAFS/HalfSub.v";
+static const char *ng0 = "C:/Code/Kosen/4th/Verilog/report/FAFS/HalfSub.v";
 
 
 
@@ -311,9 +311,9 @@ LAB10:    t34 = *((unsigned int *)t23);
 }
 
 
-extern void work_m_00000000002675392081_2892691154_init()
+extern void work_m_00000000002651911536_2892691154_init()
 {
 	static char *pe[] = {(void *)Cont_25_0,(void *)Cont_26_1};
-	xsi_register_didat("work_m_00000000002675392081_2892691154", "isim/t_FAFS_isim_beh.exe.sim/work/m_00000000002675392081_2892691154.didat");
+	xsi_register_didat("work_m_00000000002651911536_2892691154", "isim/t_FAFS_isim_beh.exe.sim/work/m_00000000002651911536_2892691154.didat");
 	xsi_register_executes(pe);
 }

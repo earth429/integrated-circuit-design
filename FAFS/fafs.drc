@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-WED 9 DEC 15:11:37 2020
+FRI 11 DEC 0:26:5 2020
 
 drc -z FAFS.ncd FAFS.pcf
 

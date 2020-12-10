@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Code/Kosen/4th/Verilog/FAFS/t_FAFS_isim_beh.exe" -prj "C:/Code/Kosen/4th/Verilog/FAFS/t_FAFS_beh.prj" "work.t_FAFS" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Code/Kosen/4th/Verilog/report/FAFS/t_FAFS_isim_beh.exe" -prj "C:/Code/Kosen/4th/Verilog/report/FAFS/t_FAFS_beh.prj" "work.t_FAFS" "work.glbl" 

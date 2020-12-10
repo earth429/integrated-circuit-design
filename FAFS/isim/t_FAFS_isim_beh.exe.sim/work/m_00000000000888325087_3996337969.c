@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Code/Kosen/4th/Verilog/FAFS/FullAdder.v";
+static const char *ng0 = "C:/Code/Kosen/4th/Verilog/report/FAFS/FullAdder.v";
 
 
 

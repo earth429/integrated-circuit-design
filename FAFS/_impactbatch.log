@@ -1,0 +1,62 @@
+iMPACT Version: Oct 13 2013 10:22:21
+
+iMPACT log file Started on Fri Dec 11 00:29:27 2020
+
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+Enumerating cables. Please wait.
+ Cable is LOCKED. Retrying...
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb22.sys found.
+ File C:/Xilinx/14.7/ISE_DS/ISE/bin/nt64/xusb22.sys not found.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ERROR:iMPACT - Cable not found, ESN: 00000000000000
+'1': Loading file 'C:\Code\Kosen\4th\Verilog\report\FAFS\fafs.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx9.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': Loading file 'C:\Code\Kosen\4th\Verilog\report\FAFS\FAFS.mcs' ...
+done.
+'1': Loading file 'C:\Code\Kosen\4th\Verilog\report\FAFS\fafs.bit' ...
+INFO:iMPACT - Elapsed time =      0 sec.
+done.
+INFO:iMPACT:501 - '1': Added Device xc6slx9 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+Active mode is BS
+ERROR:iMPACT - This function requires that a target is opened first.
+0x5327c (340604) bytes loaded up from 0x0
+Using user-specified prom size of 512K
+Writing file "C:\Code\Kosen\4th\Verilog\FAFS\FAFS.mcs".
+ERROR:Bitstream:38 - Unable to open file   "C:\Code\Kosen\4th\Verilog\FAFS\FAFS.mcs".  Either the specified directory   path does not exist or the file does not have readable permissions.
+----------------------------------------------------------------------
+----------------------------------------------------------------------

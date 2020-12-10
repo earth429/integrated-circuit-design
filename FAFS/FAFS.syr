@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: FAFS.prj
 
@@ -105,15 +105,15 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\FAFS\HalfSub.v" into library work
+Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\report\FAFS\HalfSub.v" into library work
 Parsing module <HalfSub>.
-Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\FAFS\HalfAdder.v" into library work
+Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\report\FAFS\HalfAdder.v" into library work
 Parsing module <HalfAdder>.
-Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\FAFS\FullSub.v" into library work
+Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\report\FAFS\FullSub.v" into library work
 Parsing module <FullSub>.
-Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\FAFS\FullAdder.v" into library work
+Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\report\FAFS\FullAdder.v" into library work
 Parsing module <FullAdder>.
-Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\FAFS\FAFS.v" into library work
+Analyzing Verilog file "C:\Code\Kosen\4th\Verilog\report\FAFS\FAFS.v" into library work
 Parsing module <FAFS>.
 
 =========================================================================
@@ -135,30 +135,30 @@ Elaborating module <HalfSub>.
 =========================================================================
 
 Synthesizing Unit <FAFS>.
-    Related source file is "C:\Code\Kosen\4th\Verilog\FAFS\FAFS.v".
+    Related source file is "C:\Code\Kosen\4th\Verilog\report\FAFS\FAFS.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <FAFS> synthesized.
 
 Synthesizing Unit <FullAdder>.
-    Related source file is "C:\Code\Kosen\4th\Verilog\FAFS\FullAdder.v".
+    Related source file is "C:\Code\Kosen\4th\Verilog\report\FAFS\FullAdder.v".
     Summary:
 	no macro.
 Unit <FullAdder> synthesized.
 
 Synthesizing Unit <HalfAdder>.
-    Related source file is "C:\Code\Kosen\4th\Verilog\FAFS\HalfAdder.v".
+    Related source file is "C:\Code\Kosen\4th\Verilog\report\FAFS\HalfAdder.v".
     Summary:
 Unit <HalfAdder> synthesized.
 
 Synthesizing Unit <FullSub>.
-    Related source file is "C:\Code\Kosen\4th\Verilog\FAFS\FullSub.v".
+    Related source file is "C:\Code\Kosen\4th\Verilog\report\FAFS\FullSub.v".
     Summary:
 	no macro.
 Unit <FullSub> synthesized.
 
 Synthesizing Unit <HalfSub>.
-    Related source file is "C:\Code\Kosen\4th\Verilog\FAFS\HalfSub.v".
+    Related source file is "C:\Code\Kosen\4th\Verilog\report\FAFS\HalfSub.v".
     Summary:
 Unit <HalfSub> synthesized.
 
@@ -320,8 +320,8 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.74 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.72 secs
  
 --> 
 
