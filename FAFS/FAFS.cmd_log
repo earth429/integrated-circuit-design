@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/FAFS/FAFS.xst" -ofn "C:/Code/Kosen/4th/Verilog/FAFS/FAFS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FAFS.ucf -p xc6slx9-tqg144-2 FAFS.ngc FAFS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FAFS_map.ncd FAFS.ngd FAFS.pcf 
+par -w -intstyle ise -ol high -mt off FAFS_map.ncd FAFS.ncd FAFS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml FAFS.twx FAFS.ncd -o FAFS.twr FAFS.pcf -ucf FAFS.ucf 
+bitgen -intstyle ise -f FAFS.ut FAFS.ncd 

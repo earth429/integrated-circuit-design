@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Code\Kosen\4th\Verilog\FAFS\impact.xsl
+OUTFILE=C:\Code\Kosen\4th\Verilog\FAFS\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Code\Kosen\4th\Verilog\FAFS
+LICENSE=iMPACT
+USER_INFO=iMPACT
