@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Code\Kosen\4th\Verilog\SevenSegDev\impact.xsl
+OUTFILE=C:\Code\Kosen\4th\Verilog\SevenSegDev\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Code\Kosen\4th\Verilog\SevenSegDev
+LICENSE=iMPACT
+USER_INFO=iMPACT

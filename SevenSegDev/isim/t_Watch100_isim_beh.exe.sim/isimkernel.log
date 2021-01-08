@@ -1,0 +1,33 @@
+Command line:
+   t_Watch100_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54222
+
+Fri Jan 08 07:16:47 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5163.41 Meg
+
+ Total Signals          : 45
+ Total Nets             : 50
+ Total Signal Drivers   : 19
+ Total Blocks           : 10
+ Total Primitive Blocks : 7
+ Total Processes        : 27
+ Total Traceable Variables  : 38
+ Total Scalar Nets and Variables : 229
+Total Line Count : 99
+Total Line Count : 99
+Total Line Count : 99
+Total Line Count : 99
+Total Line Count : 99
+
+ Total Simulation Time: 3.6875 sec
+
+ Current Memory Usage: 5006.13 Meg
+
+Fri Jan 08 07:18:53 2021
+

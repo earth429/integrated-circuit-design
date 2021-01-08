@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Jan 07 21:15:58 2021
+# Process ID: 30764
+# Log file: C:/Code/Kosen/4th/Verilog/SevenSegDev/planAhead_run_1/planAhead.log
+# Journal file: C:/Code/Kosen/4th/Verilog/SevenSegDev/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Code/Kosen/4th/Verilog/SevenSegDev/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list RESET]]
+startgroup
+set_property package_pin P101 [get_ports RESET]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list D4]]
+set_property iostandard LVCMOS33 [get_ports [list D3]]
+set_property iostandard LVCMOS33 [get_ports [list D2]]
+set_property iostandard LVCMOS33 [get_ports [list D1]]
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[1]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[2]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[3]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[4]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[5]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {DOUT[7]}]]
+startgroup
+set_property package_pin P111 [get_ports D4]
+endgroup
+startgroup
+set_property package_pin P116 [get_ports D3]
+endgroup
+startgroup
+set_property package_pin P118 [get_ports D2]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports D1]
+endgroup
+startgroup
+set_property package_pin P94 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin P115 [get_ports {DOUT[0]}]
+endgroup
+startgroup
+set_property package_pin P120 [get_ports {DOUT[1]}]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports {DOUT[2]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {DOUT[3]}]
+endgroup
+startgroup
+set_property package_pin P100 [get_ports {DOUT[4]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {DOUT[3]}]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports {DOUT[4]}]
+endgroup
+startgroup
+set_property package_pin P112 [get_ports {DOUT[5]}]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports {DOUT[6]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {DOUT[7]}]
+endgroup
+save_constraints

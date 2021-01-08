@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Watch100.ngc Watch100_synthesis.v 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+xst -intstyle ise -ifn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.xst" -ofn "C:/Code/Kosen/4th/Verilog/SevenSegDev/Watch100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Watch100.ucf -p xc6slx9-tqg144-2 Watch100.ngc Watch100.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Watch100_map.ncd Watch100.ngd Watch100.pcf 
+par -w -intstyle ise -ol high -mt off Watch100_map.ncd Watch100.ncd Watch100.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Watch100.twx Watch100.ncd -o Watch100.twr Watch100.pcf -ucf Watch100.ucf 
+bitgen -intstyle ise -f Watch100.ut Watch100.ncd 

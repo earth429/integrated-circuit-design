@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Jan 07 22:09:13 2021
+# Process ID: 19972
+# Log file: C:/Code/Kosen/4th/Verilog/SevenSegDev/planAhead_run_2/planAhead.log
+# Journal file: C:/Code/Kosen/4th/Verilog/SevenSegDev/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Code/Kosen/4th/Verilog/SevenSegDev/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

@@ -1,0 +1,7 @@
+verilog work "Switcher.v"
+verilog work "Selector.v"
+verilog work "DividerForDynamicLighting.v"
+verilog work "DividerForCounter.v"
+verilog work "Decoder8.v"
+verilog work "Counter100.v"
+verilog work "Watch100.v"

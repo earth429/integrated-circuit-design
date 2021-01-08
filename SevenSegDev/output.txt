@@ -1,0 +1,12 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf04s          [4 M]
+FF
+SevenSeg
+C:\Code\Kosen\4th\Verilog\SevenSeg\
+
+MCS
+No
+
+No
+o

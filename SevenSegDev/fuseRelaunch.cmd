@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Code/Kosen/4th/Verilog/SevenSegDev/t_Counter100_isim_beh.exe" -prj "C:/Code/Kosen/4th/Verilog/SevenSegDev/t_Counter100_beh.prj" "work.t_Counter100" "work.glbl" 
