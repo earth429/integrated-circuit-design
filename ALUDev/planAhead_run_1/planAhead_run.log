@@ -1,0 +1,177 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Code/Kosen/4th/Verilog/ALUDev/pa.fromHdl.tcl
+# create_project -name ALUDev -dir "C:/Code/Kosen/4th/Verilog/ALUDev/planAhead_run_2" -part xc6slx9tqg144-2
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 380.879 ; gain = 31.277
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+Adding file 'C:/Code/Kosen/4th/Verilog/ALUDev/Main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {Switcher.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {StatusRegister.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Selector.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {InstructionDecoder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {IndexRegister.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DispSelector.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DFCLW100.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Decoder8.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CLKCounter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Accumulator.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Main.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Main $srcset
+# add_files [list {Main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-2
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/Switcher.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/StatusRegister.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/Selector.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/InstructionDecoder.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/IndexRegister.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/DispSelector.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/DFCLW100.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/Decoder8.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/CLKCounter.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/ALU.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/Accumulator.v" into library work
+Analyzing Verilog file "C:/Code/Kosen/4th/Verilog/ALUDev/Main.v" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Code/Kosen/4th/Verilog/ALUDev/Main.ucf]
+Finished Parsing UCF File [C:/Code/Kosen/4th/Verilog/ALUDev/Main.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 858bb2d9
+open_rtl_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 487.113 ; gain = 94.012
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {LED[1]} {LED[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SEG_DIGIT[1]} {SEG_DIGIT[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SEG_PATTERN[7]} {SEG_PATTERN[6]} {SEG_PATTERN[5]} {SEG_PATTERN[4]} {SEG_PATTERN[3]} {SEG_PATTERN[2]} {SEG_PATTERN[1]} {SEG_PATTERN[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SW_INST[7]} {SW_INST[6]} {SW_INST[5]} {SW_INST[4]} {SW_INST[3]} {SW_INST[2]} {SW_INST[1]} {SW_INST[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SW_SEL[1]} {SW_SEL[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list SW_START]]
+startgroup
+set_property package_pin P121 [get_ports {LED[0]}]
+endgroup
+startgroup
+set_property package_pin P114 [get_ports {LED[1]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {SEG_DIGIT[0]}]
+endgroup
+startgroup
+set_property package_pin P118 [get_ports {SEG_DIGIT[1]}]
+endgroup
+startgroup
+set_property package_pin P115 [get_ports {SEG_PATTERN[0]}]
+endgroup
+startgroup
+set_property package_pin P120 [get_ports {SEG_PATTERN[1]}]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports {SEG_PATTERN[2]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {SEG_PATTERN[3]}]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports {SEG_PATTERN[4]}]
+endgroup
+startgroup
+set_property package_pin P112 [get_ports {SEG_PATTERN[5]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {SEG_PATTERN[7]}]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports {SEG_PATTERN[6]}]
+endgroup
+startgroup
+set_property package_pin P98 [get_ports {SW_INST[0]}]
+endgroup
+startgroup
+set_property package_pin P93 [get_ports {SW_INST[1]}]
+endgroup
+startgroup
+set_property package_pin P95 [get_ports {SW_INST[2]}]
+endgroup
+startgroup
+set_property package_pin P88 [get_ports {SW_INST[3]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {SW_INST[4]}]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports {SW_INST[5]}]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports {SW_INST[6]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {SW_INST[7]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  SW_START]]
+set_property package_pin "" [get_ports [list  CLK]]
+set_property package_pin "" [get_ports [list  CLK]]
+startgroup
+set_property package_pin P51 [get_ports SW_START]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {SW_SEL[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SW_SEL[1]}]]
+startgroup
+set_property package_pin P50 [get_ports {SW_SEL[0]}]
+endgroup
+startgroup
+set_property package_pin P101 [get_ports {SW_SEL[1]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat Feb 06 17:08:54 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

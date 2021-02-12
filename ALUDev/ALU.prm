@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Code\Kosen\4th\Verilog\ALUDev\//ALU -x xcf04s -u 00000000 C:/Code/Kosen/4th/Verilog/ALUDev/main.bit 
+
+PROM C:\Code\Kosen\4th\Verilog\ALUDev\ALU.prm map: MON 8 FEB 14:10:8 2021
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 02d22978
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Feb 08 14:08:17 2021 C:/Code/Kosen/4th/Verilog/ALUDev/main.bit

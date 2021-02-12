@@ -1,0 +1,383 @@
+ISim log file
+Running: C:\Code\Kosen\4th\Verilog\ALUDev\t_Main_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Code/Kosen/4th/Verilog/ALUDev/t_Main_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 165160950 ns : File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 160
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 150129150 ns : File "C:/Code/Kosen/4th/Verilog/ALUDev/CLKCounter.v" Line 40
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 112889720 ns : File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 168
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 350 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 168 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 210259120 ns : File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 172
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 660000100 ns :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 239 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 20000100 ns :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 69 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 20100 ns :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 69 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 200 us :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 69 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 30200 us :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 76 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 2 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 67 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 3 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 67 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 24 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 79 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 23 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 75 
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 23 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 75 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 13001 us :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 75 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 13 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 73 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 3 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 73 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 4 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 74 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 4 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 73 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 5 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 73 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 6 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 75 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 8 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 84 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 9 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 86 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 8 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 85 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 7 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 84 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 6 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 83 
+# restart
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 6 ms :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 81 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 660000100 ns :  in File "C:/Code/Kosen/4th/Verilog/ALUDev/t_Main.v" Line 217 

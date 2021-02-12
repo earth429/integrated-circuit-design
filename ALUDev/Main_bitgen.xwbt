@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Code\Kosen\4th\Verilog\ALUDev\Main.ncd
+OUTFILE=C:\Code\Kosen\4th\Verilog\ALUDev\Main.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Code\Kosen\4th\Verilog\ALUDev
+LICENSE=WebPack
+USER_INFO=212047348_0_0_352

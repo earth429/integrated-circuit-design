@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Feb 06 16:45:03 2021
+# Process ID: 11432
+# Log file: C:/Code/Kosen/4th/Verilog/ALUDev/planAhead_run_1/planAhead.log
+# Journal file: C:/Code/Kosen/4th/Verilog/ALUDev/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Code/Kosen/4th/Verilog/ALUDev/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {LED[1]} {LED[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SEG_DIGIT[1]} {SEG_DIGIT[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SEG_PATTERN[7]} {SEG_PATTERN[6]} {SEG_PATTERN[5]} {SEG_PATTERN[4]} {SEG_PATTERN[3]} {SEG_PATTERN[2]} {SEG_PATTERN[1]} {SEG_PATTERN[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SW_INST[7]} {SW_INST[6]} {SW_INST[5]} {SW_INST[4]} {SW_INST[3]} {SW_INST[2]} {SW_INST[1]} {SW_INST[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {SW_SEL[1]} {SW_SEL[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list SW_START]]
+startgroup
+set_property package_pin P121 [get_ports {LED[0]}]
+endgroup
+startgroup
+set_property package_pin P114 [get_ports {LED[1]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {SEG_DIGIT[0]}]
+endgroup
+startgroup
+set_property package_pin P118 [get_ports {SEG_DIGIT[1]}]
+endgroup
+startgroup
+set_property package_pin P115 [get_ports {SEG_PATTERN[0]}]
+endgroup
+startgroup
+set_property package_pin P120 [get_ports {SEG_PATTERN[1]}]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports {SEG_PATTERN[2]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {SEG_PATTERN[3]}]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports {SEG_PATTERN[4]}]
+endgroup
+startgroup
+set_property package_pin P112 [get_ports {SEG_PATTERN[5]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {SEG_PATTERN[7]}]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports {SEG_PATTERN[6]}]
+endgroup
+startgroup
+set_property package_pin P98 [get_ports {SW_INST[0]}]
+endgroup
+startgroup
+set_property package_pin P93 [get_ports {SW_INST[1]}]
+endgroup
+startgroup
+set_property package_pin P95 [get_ports {SW_INST[2]}]
+endgroup
+startgroup
+set_property package_pin P88 [get_ports {SW_INST[3]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {SW_INST[4]}]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports {SW_INST[5]}]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports {SW_INST[6]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {SW_INST[7]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  SW_START]]
+set_property package_pin "" [get_ports [list  CLK]]
+set_property package_pin "" [get_ports [list  CLK]]
+startgroup
+set_property package_pin P51 [get_ports SW_START]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {SW_SEL[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SW_SEL[1]}]]
+startgroup
+set_property package_pin P50 [get_ports {SW_SEL[0]}]
+endgroup
+startgroup
+set_property package_pin P101 [get_ports {SW_SEL[1]}]
+endgroup
+save_constraints
